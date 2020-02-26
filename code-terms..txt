@@ -1,0 +1,273 @@
+**SOLID PRINCIPLES = S:Single Responsibility-A function should have one responsibility, avoid one function that does several unrelated tasks.
+O: OPEN/CLOSE-Objects should be open for extension closed for modification.  What should be protected and extended without changing what it does.
+L: Liskov Substitution-Objects should be replaceable with instances of their subtypes without affecting functionality.  How to make something
+polymorphic, but correctly.
+I: Interface Segregation-Interfaces should be specific to the clients who need them.  What types of properties a particular class or object should have
+and should adhere to in order to be able to stand in for something else.
+D: Dependency Inversion-High-level modules should not depend on low-level modules.  Both utilize abstraction.  
+When we abstract our code out into different modules and files, a process may have a dependency that's required to do a job.  Must
+be smart in how e create those dependencies.
+
+Refrence vs Value
+
+Value (Primitive) Types{
+	-stored in the 'Heap', and don't change i.e. numbers
+	-Holds a value
+	-Each instance holds the value but not a reference to where it came from
+	-String, Boolean, Nubmer, null, undefined
+
+Reference(Object)Types:
+	-Stored in the Stack
+	-Variables provided a reference to the location in the Stack
+	-All variables using that reference are connected
+	-Object, Array, Function, NaN
+
+
+
+
+**Object-Oriented programming (OOP) = refers to a type of comptuer programming in which programmers define not only the data type
+of a data structure, but also the types of operations (functions) that can be applied to the data structure.  The idea is to build out
+objects that exists in the real world.  You group the functionality of what that object(s) can actually do next to where we actually
+store the data for that object.
+
+**Pillars of OOP = Writing code in a way that's manageable and be maintained over a long period of time.  The first concept or pillar is ABSTRACTION:
+Let's put our code where we actually need it, not all in one function over thousands of lines of code which is unruly, but into micro services or micro functions that
+can be called upon later.  ENCAPSULATION: Manage the quality and control access to data, protecting and controlling the access to it i.e. scope enclosure
+in Javascript.  INHERITANCE: States that you are going to create an object that has different properties and funcitonalities attached to it, and another
+structure can inherit those things.  POLYMORPHISM: This thing should be able to stand in for another thing, similar to inheritance.
+
+**Hoisting = Particular to Javascript, the interpreter's action of moving all variable and function declarations to the top of the current scope.
+However, only the actual declarations are hoisted.  Any assignment are left where they are. 
+
+**Dictionaries = 
+
+**Key value pairs = 
+
+**Classes =    
+
+**In the terminal, what does the cd used for?
+	-Change directory
+
+**In the Terminal, what is the mkdir command used for?
+	-It is used to create a directory
+
+**What does HTML stand for?
+	-Hyper-Text Markup Language
+
+**What are the three components that makeup a CSS rule?
+	-selector, property, value
+
+**What does CSS stand for?
+	-cascading style sheets
+
+**In what tag does the majority of your code belong?
+	-body
+
+**Define the display: flex property:
+	-It is a container that enables flex layout for all of its direct children
+
+**What CSS properties affect the size of box model?
+	-a-margin, b-border, c-padding, d-content
+
+**What are is the <html></html> tag in an html document?
+	-These tags define the Root element for a web document
+
+**What property would you change if you wanted to make a font bold?
+	-font-weight
+
+**What three tags can be used to make lists (not list items)?<>, <>, <>.
+	-ol, ul, dl
+
+**What keywords are used to declare a variable in Javascript?
+	-var, let, const
+
+**What is the definition of a function?
+	-It is a procedure, a set of statements that performs a task or
+	calculates a value
+
+**What is the purpose of the SOLID principles?
+	-Five design principles intended to make software designs more understandable,
+	maintainable and flexible
+
+**Examples of Javascript "Conditionals"?
+	-if/else, switch
+
+**Define the DOM?
+	-An object-oriented representation of the web page, which can be modified
+	with a scripting language such as JS
+
+**What is the difference between a parameter and an argument?
+	-Parameter is in the method definition, argument is what is actually 
+	passed into the method
+
+**What is the difference between a primitive value and a reference value?
+	-A primitive value is any of the six basic data types, and a reference value
+	is anything else
+
+
+
+**What is an object in Javascript?
+	-A bundle of small values that all work together to make up a larger object.
+
+**Sychronous code is?
+	-It runs top to bottom performing one action at a time.  If an action takes awhile to complete, your code execution
+	will be on hold until the process completes and the application can continue.
+
+**What is the job of the Controller in MVC?
+	-It is responsible for receiving requests and passing back responses.
+
+**What is the job of the Service in MVC?
+	-It is an added layer that contains business logic; it may work with multiple models and apply it's own
+	logic before using a repository to make a final request to a database.
+
+**What is the job of the Model in MVC?
+	-It is responsbile for containing the object schema and any logic specific to that object.
+
+**What is the Document Object Model (DOM) do?
+	-It delivers a logical structure of the page.  It is a standard for how to get, change, add, or delete HTML
+	elements.
+
+**What is a 500 error?
+	-It is a serverside error.
+
+**Define asnychronous programming
+	-The code runs separately from the main application thread and notifies the calling thread of its completion,
+	failure or progress
+
+**An event listener is
+	-A procedure or function in a computer program that waits for an event to occur.  A listener is programmed to react
+	to an input or signal.  i.e. When a user has clicked/moved the mouse, pressed a specific key on the keyboard, or the 
+	application has an internal timer or interrupt
+
+**What does the L represent in the SOLID principles?
+	-Liskov Substitution Principle
+
+**Define the Single Responsibility Principle
+	-Creating a function that has a single responsibility
+
+**What does the API abbreviation stand for?
+	-Application Programmable Interface
+
+**Utilizing AJAX Requests
+	-Web pages are dynamically updated without a full page refresh interrupting the interaction flow
+
+**What is the primary principle of encapsulation in programming?
+	-Data of an object should not be directly exposed
+
+**What is an API?
+	-An application program by which the programmer can make requests of the operating system or
+	another application
+
+**What is a 500 error?
+	-It is an unexpected server-side error
+
+**What is the difference between map and foreach?
+
+
+**(C#) Anything inside a class is referred to as a ___of that class.
+	-What is a Member
+
+**(OOP) A representation of a type of object.  The template that describes the
+details of an object?
+	-Class/Schema
+
+**(Javascript) This keyword is used to declare a variable
+	-var, let, const
+
+**(CSS) What does CSS stand for?
+	-Cascading Style Sheets
+
+**(HTML) What does HTML stand for?
+	-Hypertext Markup Language
+
+**(C#) A way to include or separate defined classes from one part of
+a program to another.  So the same name can be used for two different classes
+in a program
+	-What is a namespace
+
+**(OOP) Abstraction, Encapsulation, Inheritance, Polymorphism
+	-What are the pillars of Object Oriented Programming
+
+**(Javascript) This control flow statement will iterate a given numver of times
+	-For, while, do while loop
+
+**(CSS) What property would you change to make a font bold?
+	-Font-weight
+
+**(HTML) What are two tags that can be used to create lists?
+	-<ul> and <ol> and <dl>
+
+**(C#) The ability to reuse a class when defining a new class.
+Instead of rewriting all of the members, one can bring in members
+from a base class
+	-What is Inheritance
+
+**(OOP) A programming language model organized around objects rather
+than actions
+	-What is Object Oriented Programming
+
+**(Javascript) This function is used to delay execution of a given piece of code
+(one time)
+	-setTimeout()
+
+**(CSS) Name the three "elements" that make up a CSS rule >> h1 { color: orange; }
+	-Selector, Property, and Value
+
+**(HTML) What tag holds the majority of your code?
+	-<body>
+
+**(C#) In a method definition, ___, are passed by reference.  Whereas in a method call, ___,
+are passed by value
+	-Parameters and arguments
+
+**(OOP) A method used to initialize the state of an object.  With the rules that its method name 
+should be the same as the class type, and it has no return type
+	-What is a constructor
+
+**(Javascript) This is used to permanently store data in a user's browser
+	-local storage
+
+**(CSS) What are the 3 ways ou can add CSS to a webpage?
+	-External, Embedded/Internal, Inline
+
+**(HTML) These attributes are used to store sensitive data about an application
+and are not shown to the user
+	-data - attributes
+
+**(CSS) A contract that defnies 'what' members must exist on a class.  The class
+itself and not the contract, must assign value to these members
+	-What is an Interface
+
+**(OOP) A feature of Objeect Oriented Programming that allows for hiding the internal
+implementation details
+	-What is abstraction
+
+**(Javascript) This method will transform a JSON string to a Javascript literal
+	-JSON.parse()
+
+**(CSS) Six dimenstion properties that can be defined on an element
+	-Height, Max-Height, Max-Width, Min-Height, Min-Width, Width
+
+**(HTML) This attribute will validate whether a user has entered characters into an
+input field
+	-required
+
+**These tests test the functionality of an individual unit of code isolated from its dependencies.
+	-Unit
+
+**Refers to making bug fixes or enhancements to your code or to another developer needing to update your code at some point in the future.
+	-Maintainability
+
+**Helps ensure that your app will work as expected for your end users.
+	-Testing
+
+**This is generally a good sign of a good software architecture, which is why advanced developers take testing into account throughout the
+entire dev lifecycle.
+	-Testable code
+
+**Tests the functionality of an individual unit of code isolated from its dependencies.  They are the first line of defense against errors and
+inconsistencies in your codebase.
+	-Unit tests
+
+**This testing is a fundamental part of the Test-Driven Development(TDD) process.
+	-Unit testing
